@@ -1,0 +1,45 @@
+# Arquivos de build / CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja / outros geradores
+build/
+build-*/
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Binários gerados (Windows / MinGW)
+*.exe
+*.dll
+*.lib
+*.a
+*.la
+*.lo
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+
+# CLion / IntelliJ / IDEs JetBrains
+.idea/
+*.iml
+
+# Arquivos do sistema (Windows / Explorer)
+Thumbs.db
+Desktop.ini
+
+# DLL de runtime do OpenCL (cópia local, não versionar)
+external/opencl/bin/OpenCL.dll
