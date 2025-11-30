@@ -1,7 +1,5 @@
 # PROJETO: Transformação de Pontos 3D com OpenMP e OpenCL
 
-DISCIPLINA: Programação Paralela
-
 ---
 
 ## 1. Descrição Geral
